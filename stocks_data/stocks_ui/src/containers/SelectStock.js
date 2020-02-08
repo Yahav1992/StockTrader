@@ -49,7 +49,6 @@ class SelectStock extends Component {
 
             });
         // .then(info => this.setState({stockData:info}).then(console.log(this.state.stockData)));
-
     }
 
     dateChanged(event) {
