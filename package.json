@@ -1,0 +1,24 @@
+{
+  "name": "StockTrader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "client": "/stocks_ui/ npm start",
+    "server": "/stocks_data/ npm start",
+    "start": "concurrently --kill-others \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "3.5.1"
+  },
+  "dependencies": {
+    "date-fns": "^2.9.0",
+    "recharts": "^2.0.0-beta.1"
+  }
+}
